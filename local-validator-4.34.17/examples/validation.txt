@@ -1,0 +1,94 @@
+
+***** ERROR DETECTED *****
+Error Message: org.openqa.selenium.NoSuchElementException: Cannot find an element with the xpath: //span[text()='United States']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Error Line Num: 52
+***** ERROR DETECTED *****
+
+=====================================================
+Script Log
+=====================================================
+begin step: Launch Web Site
+begin step: Choose your country_ Select United States
+
+=====================================================
+Transaction information
+=====================================================
+Start: Fri Jul 28 14:41:27 BST 2017
+End: Fri Jul 28 14:41:46 BST 2017
+Time Active: 19147ms
+Time Paused: 0ms
+Bytes Transfered: 1396855
+Total Steps: 2
+
+
+=====================================================
+Launch Web Site, 1
+=====================================================
+Start: Fri Jul 28 14:41:27 BST 2017
+End: Fri Jul 28 14:41:46 BST 2017
+Time Active: 19100ms
+Time Paused: 0ms
+Bytes Transferred: 1396855
+Total Objects: 46
+
+	0b	301	1614ms	http://www.tiffany.com/international.aspx
+	23554b	200	373ms	http://www.tiffany.com/default.aspx
+	40072b	200	5789ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/satelliteLib-ce1777e1bada4dc140449149df16d3e22d735b3b.js
+	73808b	200	1057ms	http://www.tiffany.com/Shared/css/ecom_merged.css?v=140
+	154b	302	845ms	http://cloud.typography.com/703986/706620/css/fonts.css
+	210183b	200	7275ms	https://fonts.tiffany.com/35731/5F6A5F37E1DD4D2D5.css
+	218103b	200	1037ms	http://www.tiffany.com/shared/scripts/libraries/library.js?v=140
+	722b	200	112ms	http://www.tiffany.com/shared/scripts/ecom/home.js?v=140
+	1379b	200	122ms	http://www.tiffany.com/shared/images/icons/close.png
+	1385b	200	130ms	http://www.tiffany.com/shared/images/loading.gif
+	2860b	200	140ms	http://www.tiffany.com/local/en-US/images/logo/logo.png
+	96799b	200	381ms	http://www.tiffany.com/shared/images/wot/WorldOfTiffany1.jpg
+	1370b	200	146ms	http://www.tiffany.com/shared/images/header/magnify-glass-retina.png
+	345b	200	129ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/scripts/satellite-57eac64364746d28e2001c0d.js
+	1465b	200	398ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/scripts/satellite-56055c7933633000140000c2.js
+	742b	200	389ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/scripts/satellite-56783aaf64746d234a002925.js
+	957b	200	445ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/scripts/satellite-57e99d7464746d3cd4000ae3.js
+	50450b	200	954ms	http://media.richrelevance.com/rrserver/js/1.1/p13n.js
+	3324b	200	517ms	http://bat.bing.com/bat.js
+	132158b	200	1257ms	http://c.go-mpulse.net/boomerang/C9BDV-H6JY3-CRLKK-WDKRW-DRVTQ
+	12343b	200	718ms	https://www.google-analytics.com/analytics.js
+	16462b	200	134ms	http://www.tiffany.com/shared/fonts/tiffany-icons.ttf?9gdxuq
+	18760b	200	204ms	http://www.tiffany.com/shared/Fonts/AvenirNextMedium.woff2
+	0b	204	109ms	http://bat.bing.com/action/0?ti=5437440&Ver=2&mid=e0d439e2-3494-3303-23ce-c5ba27963161&evt=pageLoad&sid=58928d15-1&pi=-1748725250&lg=en-GB&sw=1920&sh=1200&sc=24&tl=Home%20%7C%20Tiffany%20&%20Co.&kw=Tiffany%20and%20Co.,Tiffany,Company,TCO,Gift,Gift%20Card,Gift%20Certificate,Gift%20Registry,Wedding,Wedding%20Registry,Diamonds,Jewelry,Watches,Bridal%20Registry,Home,Home%20Accessories,Accessories,Dinnerware,Drinkware,Flatware,Sterling%20Silver%20Flatware,Table,Vase,Wine&p=http%3A%2F%2Fwww.tiffany.com%2Fdefault.aspx&r=&rn=716343
+	11819b	200	536ms	http://ds.serving-sys.com/SemiCachedScripts/ebOneTag.js
+	1296b	200	123ms	https://www.google-analytics.com/plugins/ua/ec.js
+	856b	200	444ms	https://www.google-analytics.com/plugins/ua/linkid.js
+	714b	200	112ms	http://c.go-mpulse.net/boomerang/config.js?key=C9BDV-H6JY3-CRLKK-WDKRW-DRVTQ&d=www.tiffany.com&t=5004164&v=1.413.1477614597&if=&sl=0&si=xnbejnrqdhl-NaN&plugins=ConfigOverride,PageParams,AutoXHR,SPA,Angular,Backbone,Ember,History,RT,CrossDomain,BW,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,LOGN
+	243b	200	377ms	http://bs.serving-sys.com/Serving?cn=ot&onetagid=1000&dispType=js&sync=0&sessionid=4390967902787272315&pageurl=$$http%3A//www.tiffany.com/default.aspx$$&ns=0&rnd=7222522162764597
+	536b	200	185ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/scripts/satellite-56310df264746d6aa1002f1d.js
+	21020b	200	416ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/s-code-contents-7a8fa131fbb9285ec02578bb5ba3cfc97cc963c3.js
+	1600b	200	182ms	http://assets.adobedtm.com/96cc2b959a063996725d32f4ccd6e658f0fa8a39/scripts/satellite-57a4792264746d2e3200111d.js
+	287b	200	178ms	http://www.tiffany.com/Default.aspx/GetBannerText
+	199b	200	160ms	http://www.tiffany.com/shared/fonts/icon-svgs/directional_down.svg
+	420b	302	130ms	https://www.google-analytics.com/r/collect?v=1&_v=j56&a=1135201221&t=pageView&cu=USD&_s=1&dl=http%3A%2F%2Fwww.tiffany.com%2Fdefault.aspx&ul=en-gb&de=UTF-8&dt=Home%20%7C%20Tiffany%20%26%20Co.&sd=24-bit&sr=1920x1200&vp=1152x983&je=0&fl=25.0%20r0&_u=aGDACcIpJ~&jid=1091368762&gjid=1392027974&cid=231298761.1501249300&tid=UA-8281472-106&_gid=1874622682.1501249300&_r=1&z=1726530087
+	416b	302	130ms	https://www.google-analytics.com/r/collect?v=1&_v=j56&a=1135201221&t=pageView&cu=USD&_s=1&dl=http%3A%2F%2Fwww.tiffany.com%2Fdefault.aspx&ul=en-gb&de=UTF-8&dt=Home%20%7C%20Tiffany%20%26%20Co.&sd=24-bit&sr=1920x1200&vp=1152x983&je=0&fl=25.0%20r0&_u=aGDACcIpJ~&jid=989240146&gjid=465332099&cid=231298761.1501249300&tid=UA-8281472-1&_gid=1874622682.1501249300&_r=1&z=1241543532
+	35b	200	5561ms	https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-8281472-106&cid=231298761.1501249300&jid=1091368762&_gid=1874622682.1501249300&gjid=1392027974&_v=j56&z=1726530087
+	35b	200	5491ms	https://stats.g.doubleclick.net/r/collect?v=1&aip=1&t=dc&_r=3&tid=UA-8281472-1&cid=231298761.1501249300&jid=989240146&_gid=1874622682.1501249300&gjid=465332099&_v=j56&z=1241543532
+	427b	200	620ms	http://recs.richrelevance.com/rrserver/p13n_generated.js?a=9fcc91a121441cb2&ts=1501249300758&v=1.1.2.20160904&pt=%7Chome_page&s=eb8f612458864fb1a6abbd27f4e5c734&channelId=1f88d8a9478dda98&cts=http%3A%2F%2Fwww.tiffany.com&flv=25.0.0&l=1
+	0b	302	3995ms	http://stats.tiffany.com/b/ss/tiffanyrus,tiffanyglobal/1/JS-2.1.0-D7QN/s42144444641557?AQB=1&ndh=1&pf=1&t=28%2F6%2F2017%2014%3A41%3A40%205%20-60&D=D%3D&fid=635E58A259D7A835-33DAEBDE5968F475&ce=utf-8&pageName=Tiffany%20%26%20Co.%20%7C%20Home&g=http%3A%2F%2Fwww.tiffany.com%2Fdefault.aspx&cc=USD&ch=home&server=www.tiffany.com&c1=Home&h1=Home&h2=us%2CHome&v11=9%3A41%20AM%7CFriday&c12=9%3A41%20AM%7CFriday&c21=desktop&c23=D%3Dg&c24=D%3Dv64&c25=en&c26=Home%20%7C%20Tiffany%20%26%20Co.&c37=D%3Dv49&v41=D%3Dh2&c44=D%3Dv52&v44=D%3Dcc&v52=not%20logged%20in&v64=us%3ATiffany%20%26%20Co.%20%7C%20Home&v65=www.tiffany.com%2Fdefault.aspx&v67=www.tiffany.com&v68=%2B1&c70=high%20resolution&c71=http%3Astats.tiffany.com&c72=epd28&c73=1%3A1%3A1%3A1%3A1%3A1%3A1%3A1%7C2017.07.21%7C2017.07.25%7C2.1.0%7C&c75=D%3Dv65&v83=2017-07-28&s=1920x1200&c=24&j=1.6&v=N&k=Y&bw=1152&bh=983&AQE=1
+	66805b	200	1186ms	http://media.tiffany.com/is/image/Tiffany/2X/20170711_HP_Tile2_3x2Promo_US_love_lock_necklace.jpg?v=20170623131502
+	344685b	200	2301ms	http://media.tiffany.com/is/image/Tiffany/2X/20170711_HP_Tile1_5x2Promo_US_new_silver_jewelry.jpg?v=20170626101530
+	38024b	200	970ms	http://media.tiffany.com/is/image/Tiffany/2X/20170711_HP_Tile3_2x2Promo_US_silver_bracelet_tiffany.jpg?v=20170623131505
+	43b	200	254ms	http://stats.tiffany.com/b/ss/tiffanyrus,tiffanyglobal/1/JS-2.1.0-D7QN/s42144444641557?AQB=1&pccr=true&vidn=2CBD9F37851D05F0-40000151C0003403&&ndh=1&pf=1&t=28%2F6%2F2017%2014%3A41%3A40%205%20-60&D=D%3D&fid=635E58A259D7A835-33DAEBDE5968F475&ce=utf-8&pageName=Tiffany%20%26%20Co.%20%7C%20Home&g=http%3A%2F%2Fwww.tiffany.com%2Fdefault.aspx&cc=USD&ch=home&server=www.tiffany.com&c1=Home&h1=Home&h2=us%2CHome&v11=9%3A41%20AM%7CFriday&c12=9%3A41%20AM%7CFriday&c21=desktop&c23=D%3Dg&c24=D%3Dv64&c25=en&c26=Home%20%7C%20Tiffany%20%26%20Co.&c37=D%3Dv49&v41=D%3Dh2&c44=D%3Dv52&v44=D%3Dcc&v52=not%20logged%20in&v64=us%3ATiffany%20%26%20Co.%20%7C%20Home&v65=www.tiffany.com%2Fdefault.aspx&v67=www.tiffany.com&v68=%2B1&c70=high%20resolution&c71=http%3Astats.tiffany.com&c72=epd28&c73=1%3A1%3A1%3A1%3A1%3A1%3A1%3A1%7C2017.07.21%7C2017.07.25%7C2.1.0%7C&c75=D%3Dv65&v83=2017-07-28&s=1920x1200&c=24&j=1.6&v=N&k=Y&bw=1152&bh=983&AQE=1
+	0b	904	59ms	http://www.tiffany.com/favicon.ico
+	0b	904	348ms	http://36eb5555.mpstat.us/
+
+
+=====================================================
+Choose your country_ Select United States, 2
+=====================================================
+Start: Fri Jul 28 14:41:46 BST 2017
+End: Fri Jul 28 14:41:46 BST 2017
+Time Active: 360ms
+Time Paused: 0ms
+Bytes Transferred: 0
+Total Objects: 0
+
+
+

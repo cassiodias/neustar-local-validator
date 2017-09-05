@@ -1,0 +1,23 @@
+
+***** ERROR DETECTED *****
+Error Message: org.openqa.selenium.WebDriverException: unknown error: Element <li id="navMLB_Caps" class="navMLB_Caps has-dropdown nav4columns mlbTeams">...</li> is not clickable at point (321, 175). Other element would receive the click: <a href="http://www.mlbshopeurope.com/stores/mlb/en?portal=XUMTSNPO&amp;CMP=FUS-XUMTSNPO" style="width:100%; height:93%; top:0; left:0; display:block; position:absolute;"></a>
+  (Session info: chrome=60.0.3112.113)
+Error Line Num: 72
+***** ERROR DETECTED *****
+
+=====================================================
+Script Log
+=====================================================
+Called test.globalSleep with args: 3 and 7
+
+=====================================================
+Transaction information
+=====================================================
+Start: Tue Sep 05 11:18:23 IST 2017
+End: Tue Sep 05 11:19:12 IST 2017
+Time Active: 47758ms
+Time Paused: 750ms
+Bytes Transfered: 2640661
+Total Steps: 0
+
+
