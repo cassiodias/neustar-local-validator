@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 
-unzip ./local-validator-4.34.17.zip
-ln -s ${PWD}/local-validator-4.34.17/bin/validator /usr/local/bin/validator
-
+wget http://static.wpm.neustar.biz/tools/local-validator.zip
+unzip local-validator.zip
+latest_name="$(ls -d local-validator-*)"
+ln -s ${PWD}/${latest_name}/bin/validator /usr/local/bin/validator
+rm -rf ./local-validator.zip
 validator -?
