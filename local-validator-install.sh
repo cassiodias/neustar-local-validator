@@ -1,31 +1,14 @@
 #!/usr/bin/env bash
 
-INSTALLATION_DIR=$HOME"/neustar-local-validator"
+NEUSTAR_VALIDATOR_HOME="${HOME}/neustar-local-validator"
+LINE=$(printf '=%.0s' {1..80});
+[[ -d "${NEUSTAR_VALIDATOR_HOME}" ]] && OP_PREFIX="Upgrad" || OP_PREFIX="Install"
 
-function install(){
-    wget http://static.wpm.neustar.biz/tools/local-validator.zip
-    unzip local-validator.zip
-    latest_name="$(ls -d local-validator-*)"
-    ln -s ${PWD}/${latest_name}/bin/validator /usr/local/bin/validator
-    rm -rf local-validator.zip
-    echo "============================================="
-    echo " > Installed Neustar "${latest_name}
-    echo "============================================="
-}
+echo -e "${LINE}\n > ${OP_PREFIX}ing neustar-local-validator\n${LINE}"
 
-if [ ! -d "$INSTALLATION_DIR" ]; then
-    echo "======================================"
-    echo " > Installing neustar-local-validator"
-    echo "======================================"
-    mkdir ${INSTALLATION_DIR} && cd "$_"
-    install
-else
-    echo "======================================"
-    echo " > Upgrading neustar-local-validator"
-    echo "======================================"
-    cd ${INSTALLATION_DIR}
-    latest_name="$(ls -d local-validator-*)"
-    rm -rf ${latest_name}
-    rm -rf /usr/local/bin/validator
-    install
-fi
+mkdir -p "${NEUSTAR_VALIDATOR_HOME}" && cd "${NEUSTAR_VALIDATOR_HOME}"
+curl -L http://static.wpm.neustar.biz/tools/local-validator.tar.gz | tar -xzf -
+latest_name="$(ls -dtr local-validator-* | tail -1)"
+ln -Fs "${latest_name}" current
+
+echo -e "${LINE}\n > ${OP_PREFIX}ed neustar-local-validator ${latest_name}\n${LINE}"
